@@ -7,42 +7,42 @@ Obrigado por verificar este desafio de codificação de front-end.
 
 Os desafios do [Frontend Mentor](https://www.frontendmentor.io) ajudam você a melhorar suas habilidades de codificação criando projetos realistas.
 
-**To do this challenge, you need a decent understanding of HTML, CSS and JavaScript.**
+**Para fazer este desafio, você precisa de um bom conhecimento de HTML, CSS e JavaScript.**
 
-## The challenge
+## O Desafio
 
-Your challenge is to build out this age calculator app and get it looking as close to the design as possible.
+Seu desafio é criar esse aplicativo de calculadora de idade e deixá-lo o mais próximo possível do design.
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+Você pode usar qualquer ferramenta que desejar para ajudá-lo a concluir o desafio. Portanto, se você tem algo que gostaria de praticar, sinta-se à vontade para tentar.
 
-Your users should be able to: 
+Seus usuários devem ser capazes de:
 
-- View an age in years, months, and days after submitting a valid date through the form
-- Receive validation errors if:
-  - Any field is empty when the form is submitted
-  - The day number is not between 1-31
-  - The month number is not between 1-12
-  - The year is in the future
-  - The date is invalid e.g. 31/04/1991 (there are 30 days in April)
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
-- **Bonus**: See the age numbers animate to their final number when the form is submitted
+- Visualize a idade em anos, meses e dias após enviar uma data válida por meio do formulário
+- Receber erros de validação se:
+   - Qualquer campo está vazio quando o formulário é enviado
+   - O número do dia não está entre 1-31
+   - O número do mês não está entre 1-12
+   - O ano está no futuro
+   - A data é inválida, por ex. 31/04/1991 (abril tem 30 dias)
+- Veja o layout ideal para a interface, dependendo do tamanho da tela do dispositivo
+- Veja os estados de foco e foco para todos os elementos interativos na página
+- **Bônus**: veja os números de idade animados até o número final quando o formulário for enviado
 
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
+Quer algum apoio no desafio? [Junte-se à nossa comunidade Slack](https://www.frontendmentor.io/slack) e faça perguntas no canal **#help**.
 
-## Where to find everything
+## Onde encontrar tudo
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+Sua tarefa é construir o projeto para os designs dentro da pasta `/design`. Você encontrará uma versão móvel e uma versão para desktop do design.
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+Os designs estão no formato estático JPG. Usar JPGs significa que você precisará usar seu melhor julgamento para estilos como `font-size`, `padding` e `margin`.
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+Se você quiser que os arquivos de design (nós fornecemos as versões Sketch e Figma) inspecione o design com mais detalhes, você pode [inscrever-se como membro PRO](https://www.frontendmentor.io/pro).
 
-All the required assets for this project are in the `/assets` folder. The images are already exported for the correct screen size and optimized.
+Todos os ativos necessários para este projeto estão na pasta `/assets`. As imagens já estão exportadas para o tamanho de tela correto e otimizadas.
 
-We also include variable and static font files for the required fonts for this project. You can choose to either link to Google Fonts or use the local font files to host the fonts yourself. Note that we've removed the static font files for the font weights that aren't needed for this project.
+Também incluímos arquivos de fontes variáveis e estáticas para as fontes necessárias para este projeto. Você pode optar por vincular ao Google Fonts ou usar os arquivos de fontes locais para hospedar as fontes por conta própria. Observe que removemos os arquivos de fonte estáticos para os pesos de fonte que não são necessários para este projeto.
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+Há também um arquivo `style-guide.md` contendo as informações necessárias, como paleta de cores e fontes.
 
 ## Building your project
 
