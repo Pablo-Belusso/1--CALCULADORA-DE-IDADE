@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+section.cover-page {
+    width: 100%;
+}
+
+.form-container {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.form-dados {
+    display: inline-block;
+    padding-left: 40px;
+}
