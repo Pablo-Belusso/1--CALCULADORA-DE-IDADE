@@ -3,18 +3,24 @@
 
 <head>
   <meta charset="UTF-8">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,700;1,800&display=swap"
+    rel="stylesheet"> <!-- Tipo da fonte de texto -->
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Design Responsivo -->
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/style.css"> <!-- Acessar o arquivo CSS -->
   <meta name="description" content="Conteúdo do meu site.">
   <meta name="keywords" content="palavras,separadas,por,virgula">
   <meta name="author" content="Pablo Belusso" />
 
   <!-- Ícone Favicon -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
+  <!-- TÍTULO -->
   <title> Calculadora de Idade</title>
 
+  <!-- JAVASCRIPT -->
+  <script src="js/scripts.js" defer> </script> <!-- DEFER = Espera o HTML carregar e depois executa o JS -->
 
 </head>
 
@@ -22,27 +28,39 @@
 
   <section class="cover-page">
 
-    <div class="form-container">
-      <form>
-        <div class="form-dados">
-          <p>Dia:</p>
-          <input type="text" name="dia" required>
-        </div>
-        <div class="form-dados">
-          <p>Mês:</p>
-          <input type="text" name="mes" required>
-        </div>
-        <div class="form-dados">
-          <p>Ano:</p>
-          <input type="text" name="ano" required>
-        </div>
+    <div class="calculadora">
+      <div class="form-container">
 
-        <div class="form-dados">
-          <input type="submit" name="acao" value="Calcular">
-        </div>
-      </form>
-    </div>
+        <form>
+          <div class="form-dados">
+            <p>DIA</p>
+            <input type="text" id="dia" name="dia" required>
+          </div>
+          <div class="form-dados">
+            <p>MÊS</p>
+            <input type="text" id="mes" name="mes" required>
+          </div>
+          <div class="form-dados">
+            <p>ANO</p>
+            <input type="text" id="ano" name="ano" required>
+          </div>
 
+          <div class="form-botao">
+            <input type="submit" id="calcular" name="acao" value="Calcular">
+          </div>
+        </form>
+
+      </div> <!-- form-container -->
+
+      <div class="resultado">
+        <h1>
+          <script> </script> Anos
+        </h1>
+        <h1> Meses </h1>
+        <h1> Dias </h1>
+      </div> <!-- resultado -->
+
+    </div> <!-- calculadora -->
   </section>
 
 
