@@ -1,11 +1,11 @@
-# Frontend Mentor - Age calculator app
+# Frontend Mentor - Aplicativo de Calculadora de Idade
 
 
-## Welcome! 👋
+## Bem vindo! 👋
 
-Thanks for checking out this front-end coding challenge.
+Obrigado por verificar este desafio de codificação de front-end.
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+Os desafios do [Frontend Mentor](https://www.frontendmentor.io) ajudam você a melhorar suas habilidades de codificação criando projetos realistas.
 
 **To do this challenge, you need a decent understanding of HTML, CSS and JavaScript.**
 
