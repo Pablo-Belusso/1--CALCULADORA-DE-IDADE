@@ -34,44 +34,37 @@
         <form>
           <div class="form-dados">
             <p>DIA</p>
-            <input type="text" id="dia" name="dia" required>
+            <input type="number" id="dia" name="dia" required>
           </div>
           <div class="form-dados">
             <p>MÊS</p>
-            <input type="text" id="mes" name="mes" required>
+            <input type="number" id="mes" name="mes" required>
           </div>
           <div class="form-dados">
             <p>ANO</p>
-            <input type="text" id="ano" name="ano" required>
+            <input type="number" id="ano" name="ano" required>
           </div>
 
           <div class="form-botao">
-            <input type="submit" id="calcular" name="acao" value="Calcular">
+            <input type="submit" id="calcular" name="acao" value="CALCULAR">
+            <hr>
+            <!-- <button type="submit" class="sumbit_btn">
+            <img src="./images/icon-arrow.svg" alt="icon"></button> -->
           </div>
+
         </form>
 
       </div> <!-- form-container -->
 
       <div class="resultado">
-        <h1>
-          <script> </script> Anos
-        </h1>
-        <h1> Meses </h1>
-        <h1> Dias </h1>
+        <h1> <span class="ano_resultado"> - - </span> Anos </h1>
+        <h1> <span class="mes_resultado"> - - </span> Meses </h1>
+        <h1> <span class="dia_resultado"> - - </span> Dias </h1>
       </div> <!-- resultado -->
 
     </div> <!-- calculadora -->
   </section>
 
-
-  <!--
-  <footer>
-    <div class="creditos">
-      Desafio do site: <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Pablo Belusso</a>.
-    </div>
-  </footer>
-  -->
 </body>
 
 </html>

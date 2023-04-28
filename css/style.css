@@ -35,17 +35,23 @@ section.cover-page {
 }
 
 .form-botao {
-    display: block;
+    display: inline-block;
     padding-top: 40px;
+    width: 200px;
+    border: 0;
+    border-bottom: none;
+    cursor: pointer;
+
 }
 
 .form-container input[type=submit] {
-    border: 1px outset rgb(235, 169, 169);
-    cursor: pointer;
+    border-radius: 20px;
+
 }
 
 .form-container input[type=submit]:hover {
     background-color: #c0c4f2;
+
 }
 
 .form-container form input {
