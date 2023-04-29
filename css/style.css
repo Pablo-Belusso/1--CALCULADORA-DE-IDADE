@@ -17,12 +17,14 @@ section.cover-page {
 }
 
 .calculadora {
+    width: 100%;
     padding: 50px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 20px 20px 150px 20px;
 }
 
 .form-container {
+    width: 100%;
     text-align: center;
     padding-top: 10px;
     background-color: white;
@@ -37,21 +39,20 @@ section.cover-page {
 .form-botao {
     display: inline-block;
     padding-top: 40px;
-    width: 200px;
-    border: 0;
-    border-bottom: none;
+    width: 300px;
     cursor: pointer;
-
 }
+
 
 .form-container input[type=submit] {
     border-radius: 20px;
-
+    font-size: medium;
+    font-weight: bold;
 }
 
 .form-container input[type=submit]:hover {
     background-color: #c0c4f2;
-
+    cursor: pointer;
 }
 
 .form-container form input {
@@ -70,4 +71,100 @@ section.cover-page {
     text-align: center;
     font-size: 60px;
     padding-top: 20px;
+}
+
+.resultado span {
+    color: hsl(259, 100%, 65%);
+}
+
+
+
+/* -----   ESTILO DAS MENSAGENS DE ERRO ------ */
+
+.erro {
+    display: block;
+    color: red;
+    font-size: 12px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+
+
+/* -----   RESPONSIVO ------ */
+
+@media screen and (max-width:1400px) {
+
+    section.cover-page {
+
+        padding: 50px 200px;
+    }
+}
+
+@media screen and (max-width:1172px) {
+
+    section.cover-page {
+
+        padding: 50px 100px;
+    }
+}
+
+@media screen and (max-width:980px) {
+
+    section.cover-page {
+        padding: 50px 50px;
+    }
+
+}
+
+@media screen and (max-width:872px) {
+
+    section.cover-page {
+        padding: 20px 50px;
+    }
+
+    .calculadora {
+        padding-top: 20px;
+    }
+
+    .form-dados {
+        display: block;
+        padding-left: 30px;
+    }
+
+
+    .resultado h1 {
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    section.cover-page {
+        padding: 10px 10px;
+    }
+
+    .calculadora {
+        padding-top: 10px;
+    }
+
+    .form-dados {
+        display: block;
+        padding-left: 0px;
+    }
+
+    .form-botao {
+        width: 100%;
+        cursor: pointer;
+    }
+
+    .resultado h1 {
+        font-size: 25px;
+    }
+
+    .form-dados span .erro {
+        font-size: .5rem;
+        margin-top: .2rem;
+        width: 100%;
+    }
 }
