@@ -130,7 +130,7 @@ p {
 
     section.cover-page {
 
-        padding: 50px 200px;
+        padding: 50px 300px;
     }
 }
 
@@ -138,32 +138,30 @@ p {
 
     section.cover-page {
 
-        padding: 50px 100px;
+        padding: 50px 200px;
     }
 }
 
 @media screen and (max-width:980px) {
 
     section.cover-page {
-        padding: 50px 50px;
+        padding: 50px 100px;
     }
 
 }
 
-@media screen and (max-width:872px) {
+
+
+@media screen and (max-width:723px) {
 
     section.cover-page {
-        padding: 20px 50px;
+        padding: 40px 40px;
     }
 
     .calculadora {
-        padding-top: 20px;
+        padding: 5px;
     }
 
-    .form-dados {
-        display: block;
-        padding-left: 30px;
-    }
 
 
     .resultado h1 {
@@ -171,28 +169,29 @@ p {
     }
 }
 
-@media screen and (max-width:500px) {
+
+
+@media screen and (max-width:594px) {
 
     section.cover-page {
         padding: 10px 10px;
     }
 
-    .calculadora {
-        padding-top: 10px;
-    }
-
-    .form-dados {
+    form {
+        text-align: center;
         display: block;
-        padding-left: 0px;
+        padding-left: 30px;
+        width: 100%;
     }
 
     .form-botao {
         width: 100%;
         cursor: pointer;
+
     }
 
     .resultado h1 {
-        font-size: 25px;
+        font-size: 28px;
     }
 
     .form-dados span .erro {
